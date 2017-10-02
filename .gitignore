@@ -1,4 +1,6 @@
 data
 *.prototxt
-jupyter-notebook/.ipynb_checkpoints/
-.swp
+*checkpoints*
+*.swp
+__pycache__/
+

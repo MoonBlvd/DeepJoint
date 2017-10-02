@@ -13,11 +13,11 @@ from keras.layers import Input
 
 
 
-class Base_Vgg16(img_input):
+class BaseVgg16():
 	def __init__(self):
 		self.lr = 0.001
 		self.weight_filter = keras.initializers.RandomNormal(mean=0.0, stddev=0.001)
-	def model(self, input_shape)
+	def model(self, input_shape):
 		net = {}
 		# input block
 		input_tensor = Input(shape=input_shape)
@@ -69,7 +69,4 @@ class Base_Vgg16(img_input):
 		net['fconv6_BN'] = Activation('relu')(net['fconv6_BN'])
 		net['fconv6_BN'] = Dropout(rate=0.5)(net['fconv6_BN'])
 
-		# generate the model
-		model = Model(net['input'], net['fcn6_BN'])
-
-		return net, model
+		return net

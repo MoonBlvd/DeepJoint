@@ -15,7 +15,7 @@
 * 13 - head, 14 - neck
 
 ---
-![](/home/brianyao/Documents/AI_challenger/readme_fig/human_body_structure.png  "Human body structure")
+![](readme_fig/human_body_structure.png  "Human body structure")
 
-####Reference
+#### Reference
 * Chu X, Ouyang W, Li H, Wang X. Structured feature learning for pose estimation. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2016 (pp. 4715-4723).
